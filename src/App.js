@@ -40,14 +40,14 @@ function App() {
     <div className="App">
       <Heading></Heading>
       <CreateArea onAdd={addNote}></CreateArea>
-
+      <div className="custom-scroll">
       {notes.map((noteItem, index) =>{
         return(
         <Note title={noteItem.title} content={noteItem.content} key={index} id={index} onDelete={deleteNote}></Note>
         )
       })}
-
-      {<Footer></Footer>}
+      </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -11,7 +11,7 @@ function Heading(){
 
     if (currentTime < 12){
         message = "Notes this morning 👨‍💻";
-    }else if(currentTime > 12 && currentTime < 18){
+    }else if(currentTime > 12 || currentTime < 18){
         message = "Notes this afternoon 👨‍💻";
     }else{
         message = "Notes this evening 👨‍💻";
