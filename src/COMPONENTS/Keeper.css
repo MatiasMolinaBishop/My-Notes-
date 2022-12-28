@@ -87,7 +87,7 @@ form textarea {
   resize: none;
 }
 
-form button {
+span {
   position: relative;
   margin-right: 10px;
   margin-left: 380px;
@@ -166,7 +166,7 @@ form textarea {
   resize: none;
 }
 
-form button {
+span {
   position: relative;
   margin-right: 10px;
   margin-left: 320px;
