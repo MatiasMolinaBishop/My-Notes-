@@ -239,7 +239,7 @@ form textarea {
   resize: none;
 }
 
-form button {
+span {
   position: relative;
   margin-right: 10px;
   margin-left: 240px;
